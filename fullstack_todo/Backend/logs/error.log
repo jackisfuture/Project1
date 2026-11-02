@@ -1,0 +1,10 @@
+2026-01-03T12:37:08: ReferenceError: rrouter is not defined
+2026-01-03T12:37:08:     at file:///C:/Users/i8sja/Project1/fullstack_todo/Backend/routes/taskRoutes.js:62:1
+2026-01-03T12:37:08:     at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+2026-01-03T12:37:08:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-03T12:37:08:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+2026-01-03T12:40:20: ReferenceError: rrouter is not defined
+2026-01-03T12:40:20:     at file:///C:/Users/i8sja/Project1/fullstack_todo/Backend/routes/taskRoutes.js:61:1
+2026-01-03T12:40:20:     at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+2026-01-03T12:40:20:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-03T12:40:20:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)

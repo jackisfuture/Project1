@@ -1,0 +1,37 @@
+services:
+  # Local MongoDB (kept as a backup/testing option)
+  database:
+    image: mongo:latest
+    container_name: mongodb-container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    restart: always
+
+  # Node.js Backend with PM2 connecting to Atlas
+  backend:
+    build: ./Backend
+    container_name: my-todo-app-pm2
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb+srv://todo_user_1:NDz4wKVfQUVe5lFm@todoappcluster.lvw7nys.mongodb.net/todo-app-db?retryWrites=true&w=majority&appName=TodoAppCluster
+    depends_on:
+      - database
+    restart: always
+
+  # React Frontend
+  frontend:
+    build: ./Frontend
+    container_name: my-todo-frontend
+    ports:
+      - "3000:3000"
+    stdin_open: true # Required for React development mode
+    tty: true        # Required for React development mode
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  mongo-data:

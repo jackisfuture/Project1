@@ -1,0 +1,13 @@
+# Ignore the local dependencies folder
+node_modules
+
+# Ignore local environment variables (security)
+.env
+
+# Ignore log files
+npm-debug.log
+*.log
+
+# Ignore git metadata
+.git
+.gitignore 

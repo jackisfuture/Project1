@@ -1,0 +1,237 @@
+2026-01-03T12:37:08: ReferenceError: rrouter is not defined
+2026-01-03T12:37:08:     at file:///C:/Users/i8sja/Project1/fullstack_todo/Backend/routes/taskRoutes.js:62:1
+2026-01-03T12:37:08:     at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+2026-01-03T12:37:08:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-03T12:37:08:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+2026-01-03T12:40:20: ReferenceError: rrouter is not defined
+2026-01-03T12:40:20:     at file:///C:/Users/i8sja/Project1/fullstack_todo/Backend/routes/taskRoutes.js:61:1
+2026-01-03T12:40:20:     at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+2026-01-03T12:40:20:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-03T12:40:20:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+2026-01-03T12:47:06: [dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-01-03T12:47:06: Server is running on port 5000
+2026-01-03T12:47:08: MongoDB Connected!
+2026-01-03T12:47:17: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:47:18: [0mGET /api/tasks [32m200[0m 109.032 ms - 807[0m
+2026-01-03T12:47:32: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:47:32: [0mGET /api/tasks [36m304[0m 153.391 ms - -[0m
+2026-01-03T12:47:32: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:47:32: [0mGET /api/tasks [36m304[0m 98.314 ms - -[0m
+2026-01-03T12:48:20: [0mOPTIONS /api/tasks/6958b60e9b7f45d4f953523b [32m204[0m 0.866 ms - 0[0m
+2026-01-03T12:48:20: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958b60e9b7f45d4f953523b") }, {})
+2026-01-03T12:48:20: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958b60e9b7f45d4f953523b") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sat, 03 Jan 2026 07:18:20 GMT") }}, {})
+2026-01-03T12:48:20: [0mPUT /api/tasks/6958b60e9b7f45d4f953523b [32m200[0m 348.404 ms - 152[0m
+2026-01-03T12:52:06: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:52:06: [0mGET /api/tasks [32m200[0m 78.870 ms - 806[0m
+2026-01-03T12:52:06: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:52:06: [0mGET /api/tasks [36m304[0m 101.915 ms - -[0m
+2026-01-03T12:52:21: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:52:21: [0mGET /api/tasks [36m304[0m 58.331 ms - -[0m
+2026-01-03T12:53:22: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:53:22: [0mGET /api/tasks [36m304[0m 98.744 ms - -[0m
+2026-01-03T12:53:22: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T12:53:22: [0mGET /api/tasks [36m304[0m 52.298 ms - -[0m
+2026-01-03T14:09:15: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:09:16: [0mGET /api/tasks [36m304[0m 1123.285 ms - -[0m
+2026-01-03T14:09:16: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:09:16: [0mGET /api/tasks [36m304[0m 99.633 ms - -[0m
+2026-01-03T14:10:31: [0mOPTIONS /api/tasks [32m204[0m 0.153 ms - 0[0m
+2026-01-03T14:10:31: [0;36mMongoose:[0m tasks.insertOne({ text: [32m'EEEE'[39m, isComplete: [33mfalse[39m, _id: ObjectId("6958d5ff09a73936dbc1eec1"), createdAt: new Date("Sat, 03 Jan 2026 08:40:31 GMT"), updatedAt: new Date("Sat, 03 Jan 2026 08:40:31 GMT"), __v: [33m0[39m}, {})
+2026-01-03T14:10:32: [0mPOST /api/tasks [32m201[0m 186.103 ms - 153[0m
+2026-01-03T14:10:46: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:10:46: [0mGET /api/tasks [32m200[0m 259.502 ms - 960[0m
+2026-01-03T14:10:46: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:10:47: [0mGET /api/tasks [36m304[0m 200.273 ms - -[0m
+2026-01-03T14:16:13: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:16:13: [0mGET /api/tasks [36m304[0m 45.794 ms - -[0m
+2026-01-03T14:16:13: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:16:13: [0mGET /api/tasks [36m304[0m 49.371 ms - -[0m
+2026-01-03T14:16:29: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:16:29: [0mGET /api/tasks [36m304[0m 204.286 ms - -[0m
+2026-01-03T14:16:30: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:16:30: [0mGET /api/tasks [36m304[0m 113.340 ms - -[0m
+2026-01-03T14:16:52: [0mOPTIONS /api/tasks/6958d5ff09a73936dbc1eec1 [32m204[0m 0.077 ms - 0[0m
+2026-01-03T14:16:52: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, {})
+2026-01-03T14:16:53: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sat, 03 Jan 2026 08:46:53 GMT") }}, {})
+2026-01-03T14:16:53: [0mPUT /api/tasks/6958d5ff09a73936dbc1eec1 [32m200[0m 445.313 ms - 152[0m
+2026-01-03T14:18:04: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:18:04: [0mGET /api/tasks [32m200[0m 147.754 ms - 959[0m
+2026-01-03T14:18:04: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:18:05: [0mGET /api/tasks [36m304[0m 147.702 ms - -[0m
+2026-01-03T14:23:30: [0mOPTIONS /api/tasks/6958d5ff09a73936dbc1eec1 [32m204[0m 0.081 ms - 0[0m
+2026-01-03T14:23:30: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, {})
+2026-01-03T14:23:30: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sat, 03 Jan 2026 08:53:30 GMT") }}, {})
+2026-01-03T14:23:30: [0mPUT /api/tasks/6958d5ff09a73936dbc1eec1 [32m200[0m 230.447 ms - 153[0m
+2026-01-03T14:23:41: [0mOPTIONS /api/tasks/6958b60e9b7f45d4f953523b [32m204[0m 0.098 ms - 0[0m
+2026-01-03T14:23:41: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958b60e9b7f45d4f953523b") }, {})
+2026-01-03T14:23:42: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958b60e9b7f45d4f953523b") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sat, 03 Jan 2026 08:53:42 GMT") }}, {})
+2026-01-03T14:23:42: [0mPUT /api/tasks/6958b60e9b7f45d4f953523b [32m200[0m 243.627 ms - 153[0m
+2026-01-03T14:23:56: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:23:56: [0mGET /api/tasks [32m200[0m 161.186 ms - 961[0m
+2026-01-03T14:23:56: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T14:23:56: [0mGET /api/tasks [36m304[0m 101.125 ms - -[0m
+2026-01-03T15:38:53: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T15:38:54: [0mGET /api/tasks [36m304[0m 1176.943 ms - -[0m
+2026-01-03T15:38:54: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T15:38:54: [0mGET /api/tasks [36m304[0m 99.263 ms - -[0m
+2026-01-03T15:46:33: [dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-01-03T15:46:33: Server is running on port 5000
+2026-01-03T15:46:34: MongoDB Connected!
+2026-01-03T15:46:39: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T15:46:39: [0mGET /api/tasks [36m304[0m 210.292 ms - -[0m
+2026-01-03T15:46:39: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-03T15:46:39: [0mGET /api/tasks [36m304[0m 86.252 ms - -[0m
+2026-01-04T01:42:09: [dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-01-04T01:42:09: Server is running on port 5000
+2026-01-04T01:42:10: MongoDB Connected!
+2026-01-04T01:42:15: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T01:42:15: [0mGET /api/tasks [36m304[0m 126.920 ms - -[0m
+2026-01-04T01:42:15: [0mGET /favicon.ico [33m404[0m 2.687 ms - 150[0m
+2026-01-04T01:42:17: [0mGET /health [32m200[0m 0.939 ms - 106[0m
+2026-01-04T01:42:45: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T01:42:45: [0mGET /api/tasks [32m200[0m 70.704 ms - 961[0m
+2026-01-04T01:42:45: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T01:42:45: [0mGET /api/tasks [36m304[0m 64.465 ms - -[0m
+2026-01-04T01:52:40: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T01:52:40: [0mGET /api/tasks [36m304[0m 62.346 ms - -[0m
+2026-01-04T01:52:40: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T01:52:41: [0mGET /api/tasks [36m304[0m 74.709 ms - -[0m
+2026-01-04T01:58:38: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T01:58:38: [0mGET /api/tasks [36m304[0m 134.085 ms - -[0m
+2026-01-04T01:58:38: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T01:58:38: [0mGET /api/tasks [36m304[0m 98.159 ms - -[0m
+2026-01-04T01:58:41: [0mOPTIONS /api/tasks/6958d5ff09a73936dbc1eec1 [32m204[0m 1.331 ms - 0[0m
+2026-01-04T01:58:41: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, {})
+2026-01-04T01:58:41: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:28:41 GMT") }}, {})
+2026-01-04T01:58:42: [0mPUT /api/tasks/6958d5ff09a73936dbc1eec1 [32m200[0m 361.649 ms - 152[0m
+2026-01-04T01:58:44: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, {})
+2026-01-04T01:58:44: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:28:44 GMT") }}, {})
+2026-01-04T01:58:44: [0mPUT /api/tasks/6958d5ff09a73936dbc1eec1 [32m200[0m 148.962 ms - 153[0m
+2026-01-04T01:58:51: [0mOPTIONS /api/tasks/6958d5ff09a73936dbc1eec1 [32m204[0m 0.211 ms - 0[0m
+2026-01-04T01:58:51: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, {})
+2026-01-04T01:58:51: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:28:51 GMT") }}, {})
+2026-01-04T01:58:51: [0mPUT /api/tasks/6958d5ff09a73936dbc1eec1 [32m200[0m 220.278 ms - 152[0m
+2026-01-04T01:58:53: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, {})
+2026-01-04T01:58:53: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:28:53 GMT") }}, {})
+2026-01-04T01:58:53: [0mPUT /api/tasks/6958d5ff09a73936dbc1eec1 [32m200[0m 263.561 ms - 153[0m
+2026-01-04T01:59:17: [0mOPTIONS /api/tasks [32m204[0m 0.142 ms - 0[0m
+2026-01-04T01:59:17: [0;36mMongoose:[0m tasks.insertOne({ text: [32m'Goolugulu'[39m, isComplete: [33mfalse[39m, _id: ObjectId("69597c1d0cf5f4394a6212bd"), createdAt: new Date("Sat, 03 Jan 2026 20:29:17 GMT"), updatedAt: new Date("Sat, 03 Jan 2026 20:29:17 GMT"), __v: [33m0[39m}, {})
+2026-01-04T01:59:17: [0mPOST /api/tasks [32m201[0m 162.943 ms - 158[0m
+2026-01-04T02:02:41: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T02:02:41: [0mGET /api/tasks [32m200[0m 79.224 ms - 1120[0m
+2026-01-04T02:02:41: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T02:02:41: [0mGET /api/tasks [36m304[0m 97.369 ms - -[0m
+2026-01-04T02:02:44: [0mOPTIONS /api/tasks/69597c1d0cf5f4394a6212bd [32m204[0m 0.132 ms - 0[0m
+2026-01-04T02:02:44: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, {})
+2026-01-04T02:02:44: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:32:44 GMT") }}, {})
+2026-01-04T02:02:44: [0mPUT /api/tasks/69597c1d0cf5f4394a6212bd [32m200[0m 201.494 ms - 157[0m
+2026-01-04T02:02:50: [0mOPTIONS /api/tasks/69597c1d0cf5f4394a6212bd [32m204[0m 0.126 ms - 0[0m
+2026-01-04T02:02:50: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, {})
+2026-01-04T02:02:50: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:32:50 GMT") }}, {})
+2026-01-04T02:02:50: [0mPUT /api/tasks/69597c1d0cf5f4394a6212bd [32m200[0m 173.014 ms - 158[0m
+2026-01-04T02:02:58: [0mOPTIONS /api/tasks/69597c1d0cf5f4394a6212bd [32m204[0m 0.191 ms - 0[0m
+2026-01-04T02:02:58: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, {})
+2026-01-04T02:02:58: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:32:58 GMT") }}, {})
+2026-01-04T02:02:58: [0mPUT /api/tasks/69597c1d0cf5f4394a6212bd [32m200[0m 270.496 ms - 157[0m
+2026-01-04T02:03:04: [0mOPTIONS /api/tasks/69597c1d0cf5f4394a6212bd [32m204[0m 0.277 ms - 0[0m
+2026-01-04T02:03:04: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, {})
+2026-01-04T02:03:04: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sat, 03 Jan 2026 20:33:04 GMT") }}, {})
+2026-01-04T02:03:04: [0mPUT /api/tasks/69597c1d0cf5f4394a6212bd [32m200[0m 261.673 ms - 158[0m
+2026-01-04T02:03:10: [0mOPTIONS /api/tasks/6958d5ff09a73936dbc1eec1 [32m204[0m 0.118 ms - 0[0m
+2026-01-04T02:03:10: [0;36mMongoose:[0m tasks.deleteOne({ _id: ObjectId("6958d5ff09a73936dbc1eec1") }, {})
+2026-01-04T02:03:10: [0mDELETE /api/tasks/6958d5ff09a73936dbc1eec1 [32m200[0m 130.081 ms - 71[0m
+2026-01-04T02:21:58: [0mOPTIONS /api/tasks [32m204[0m 0.261 ms - 0[0m
+2026-01-04T02:21:58: [0;36mMongoose:[0m tasks.insertOne({ text: [32m'Raphaaa'[39m, isComplete: [33mfalse[39m, _id: ObjectId("6959816e0cf5f4394a6212ca"), createdAt: new Date("Sat, 03 Jan 2026 20:51:58 GMT"), updatedAt: new Date("Sat, 03 Jan 2026 20:51:58 GMT"), __v: [33m0[39m}, {})
+2026-01-04T02:21:58: [0mPOST /api/tasks [32m201[0m 144.947 ms - 156[0m
+2026-01-04T02:33:08: [0mOPTIONS /api/tasks [32m204[0m 0.442 ms - 0[0m
+2026-01-04T02:33:08: [0;36mMongoose:[0m tasks.insertOne({ text: [32m'boyyy'[39m, isComplete: [33mfalse[39m, _id: ObjectId("6959840c0cf5f4394a6212cc"), createdAt: new Date("Sat, 03 Jan 2026 21:03:08 GMT"), updatedAt: new Date("Sat, 03 Jan 2026 21:03:08 GMT"), __v: [33m0[39m}, {})
+2026-01-04T02:33:08: [0mPOST /api/tasks [32m201[0m 127.321 ms - 154[0m
+2026-01-04T02:33:12: [0mOPTIONS /api/tasks/6959840c0cf5f4394a6212cc [32m204[0m 0.104 ms - 0[0m
+2026-01-04T02:33:12: [0;36mMongoose:[0m tasks.deleteOne({ _id: ObjectId("6959840c0cf5f4394a6212cc") }, {})
+2026-01-04T02:33:12: [0mDELETE /api/tasks/6959840c0cf5f4394a6212cc [32m200[0m 173.374 ms - 71[0m
+2026-01-04T02:33:40: [0mOPTIONS /api/tasks [32m204[0m 0.169 ms - 0[0m
+2026-01-04T02:33:40: [0mPOST /api/tasks [33m400[0m 0.592 ms - 43[0m
+2026-01-04T11:40:33: [dotenv@17.2.3] injecting env (2) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+2026-01-04T11:40:33: Server is running on port 5000
+2026-01-04T11:40:34: MongoDB Connected!
+2026-01-04T11:41:10: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T11:41:10: [0mGET /api/tasks [32m200[0m 187.030 ms - 1123[0m
+2026-01-04T11:41:10: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T11:41:10: [0mGET /api/tasks [36m304[0m 112.028 ms - -[0m
+2026-01-04T11:41:14: [0mOPTIONS /api/tasks/6959816e0cf5f4394a6212ca [32m204[0m 0.869 ms - 0[0m
+2026-01-04T11:41:14: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, {})
+2026-01-04T11:41:15: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sun, 04 Jan 2026 06:11:15 GMT") }}, {})
+2026-01-04T11:41:15: [0mPUT /api/tasks/6959816e0cf5f4394a6212ca [32m200[0m 185.698 ms - 155[0m
+2026-01-04T11:41:18: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, {})
+2026-01-04T11:41:18: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sun, 04 Jan 2026 06:11:18 GMT") }}, {})
+2026-01-04T11:41:18: [0mPUT /api/tasks/6959816e0cf5f4394a6212ca [32m200[0m 295.210 ms - 156[0m
+2026-01-04T11:41:29: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T11:41:29: [0mGET /api/tasks [32m200[0m 160.894 ms - 1123[0m
+2026-01-04T11:41:29: [0mGET /favicon.ico [33m404[0m 2.047 ms - 150[0m
+2026-01-04T11:55:14: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T11:55:14: [0mGET /api/tasks [36m304[0m 216.618 ms - -[0m
+2026-01-04T12:01:22: [0mOPTIONS /api/tasks/6959816e0cf5f4394a6212ca [32m204[0m 0.486 ms - 0[0m
+2026-01-04T12:01:22: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, {})
+2026-01-04T12:01:22: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sun, 04 Jan 2026 06:31:22 GMT") }}, {})
+2026-01-04T12:01:22: [0mPUT /api/tasks/6959816e0cf5f4394a6212ca [32m200[0m 175.186 ms - 155[0m
+2026-01-04T12:01:41: [0mOPTIONS /api/tasks/69597c1d0cf5f4394a6212bd [32m204[0m 0.144 ms - 0[0m
+2026-01-04T12:01:41: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, {})
+2026-01-04T12:01:41: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("69597c1d0cf5f4394a6212bd") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sun, 04 Jan 2026 06:31:41 GMT") }}, {})
+2026-01-04T12:01:42: [0mPUT /api/tasks/69597c1d0cf5f4394a6212bd [32m200[0m 379.708 ms - 157[0m
+2026-01-04T12:11:54: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T12:11:54: [0mGET /api/tasks [32m200[0m 187.346 ms - 1121[0m
+2026-01-04T12:11:54: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-04T12:11:55: [0mGET /api/tasks [36m304[0m 304.557 ms - -[0m
+2026-01-04T13:21:59: [0mOPTIONS /api/tasks/69469f2d6f7be4d1846cebb2 [32m204[0m 0.088 ms - 0[0m
+2026-01-04T13:21:59: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("69469f2d6f7be4d1846cebb2") }, {})
+2026-01-04T13:21:59: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("69469f2d6f7be4d1846cebb2") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Sun, 04 Jan 2026 07:51:59 GMT") }}, {})
+2026-01-04T13:21:59: [0mPUT /api/tasks/69469f2d6f7be4d1846cebb2 [32m200[0m 266.856 ms - 157[0m
+2026-01-04T13:22:03: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("69469f2d6f7be4d1846cebb2") }, {})
+2026-01-04T13:22:03: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("69469f2d6f7be4d1846cebb2") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Sun, 04 Jan 2026 07:52:03 GMT") }}, {})
+2026-01-04T13:22:03: [0mPUT /api/tasks/69469f2d6f7be4d1846cebb2 [32m200[0m 108.244 ms - 158[0m
+2026-01-10T00:24:39: [dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-01-10T00:24:39: Server is running on port 5000
+2026-01-10T00:24:40: MongoDB Connected!
+2026-01-10T00:25:31: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T00:25:31: [0mGET /api/tasks [32m200[0m 71.483 ms - 1121[0m
+2026-01-10T00:25:31: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T00:25:32: [0mGET /api/tasks [36m304[0m 50.180 ms - -[0m
+2026-01-10T00:32:17: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T00:32:17: [0mGET /api/tasks [32m200[0m 143.730 ms - 1121[0m
+2026-01-10T00:32:17: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T00:32:17: [0mGET /api/tasks [36m304[0m 98.827 ms - -[0m
+2026-01-10T00:32:23: [0mOPTIONS /api/tasks/6959816e0cf5f4394a6212ca [32m204[0m 0.287 ms - 0[0m
+2026-01-10T00:32:23: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, {})
+2026-01-10T00:32:23: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Fri, 09 Jan 2026 19:02:23 GMT") }}, {})
+2026-01-10T00:32:23: [0mPUT /api/tasks/6959816e0cf5f4394a6212ca [32m200[0m 260.289 ms - 156[0m
+2026-01-10T00:32:27: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, {})
+2026-01-10T00:32:27: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Fri, 09 Jan 2026 19:02:27 GMT") }}, {})
+2026-01-10T00:32:27: [0mPUT /api/tasks/6959816e0cf5f4394a6212ca [32m200[0m 249.378 ms - 155[0m
+2026-01-10T00:32:50: [dotenv@17.2.3] injecting env (2) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+2026-01-10T00:32:50: Server is running on port 5000
+2026-01-10T00:32:51: MongoDB Connected!
+2026-01-10T01:28:18: [dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-01-10T01:28:18: Server is running on port 5000
+2026-01-10T01:28:21: MongoDB Connected!
+2026-01-10T01:28:37: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T01:28:38: [0mGET /api/tasks [32m200[0m 110.727 ms - 1121[0m
+2026-01-10T01:28:38: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T01:28:38: [0mGET /api/tasks [36m304[0m 51.692 ms - -[0m
+2026-01-10T01:28:56: [0mGET /favicon.ico [33m404[0m 3.219 ms - 150[0m
+2026-01-10T01:28:58: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T01:28:59: [0mGET /api/tasks [32m200[0m 173.143 ms - 1121[0m
+2026-01-10T01:28:59: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T01:28:59: [0mGET /api/tasks [36m304[0m 110.035 ms - -[0m
+2026-01-10T01:57:54: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T01:57:54: [0mGET /api/tasks [36m304[0m 72.571 ms - -[0m
+2026-01-10T01:57:54: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T01:57:54: [0mGET /api/tasks [36m304[0m 133.768 ms - -[0m
+2026-01-10T01:57:57: [0mOPTIONS /api/tasks/6959816e0cf5f4394a6212ca [32m204[0m 0.975 ms - 0[0m
+2026-01-10T01:57:57: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, {})
+2026-01-10T01:57:57: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, { [32m'$set'[39m: { isComplete: [33mfalse[39m, updatedAt: new Date("Fri, 09 Jan 2026 20:27:57 GMT") }}, {})
+2026-01-10T01:57:57: [0mPUT /api/tasks/6959816e0cf5f4394a6212ca [32m200[0m 219.536 ms - 156[0m
+2026-01-10T01:57:59: [0;36mMongoose:[0m tasks.findOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, {})
+2026-01-10T01:57:59: [0;36mMongoose:[0m tasks.updateOne({ _id: ObjectId("6959816e0cf5f4394a6212ca") }, { [32m'$set'[39m: { isComplete: [33mtrue[39m, updatedAt: new Date("Fri, 09 Jan 2026 20:27:59 GMT") }}, {})
+2026-01-10T01:57:59: [0mPUT /api/tasks/6959816e0cf5f4394a6212ca [32m200[0m 177.619 ms - 155[0m
+2026-01-10T01:58:49: [0;36mMongoose:[0m tasks.find({}, { sort: { createdAt: [33m-1[39m } })
+2026-01-10T01:58:49: [0mGET /api/tasks [32m200[0m 264.864 ms - 1121[0m
